@@ -82,7 +82,7 @@ header {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #282a75;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -143,6 +143,7 @@ justify-content: space-between;
     color: #222;
     font-size: 16px;
     margin-bottom: 40px;
+    text-align: justify
 }
 
  .card {
@@ -243,7 +244,17 @@ justify-content: space-between;
 }
 
 
+.aircraft_types details {
+    /* border-bottom: 1px solid #68676761; */
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    cursor: pointer;
 
+}
 
 
 
@@ -322,7 +333,7 @@ footer {
       border-radius: 10px;
       background: #fff;
       padding: 20px 0;
-      margin: 50px 0;
+      margin: 0 0 50px 0;
     }
 
     .qnic-track {
@@ -347,8 +358,14 @@ footer {
       max-width: 100%;
       max-height: 100%;
       object-fit: contain;
+      /* filter: grayscale(100%); */
       transition: filter 0.3s;
     }
+/* 
+    .qnic-slide img:hover {
+      filter: grayscale(0%);
+      transform: translate(0, -5px);
+    } */
 
     @keyframes qnic-scroll {
       0% { transform: translateX(0); }
@@ -366,6 +383,14 @@ footer {
 
 
 @media (max-width: 768px) {
+
+    .services_section h1{
+        font-size: 25px;
+    }
+
+    .content_section h2{
+        font-size: 22px;
+    }
 
     .hero_image{
         margin-top: 80px;
@@ -398,4 +423,3 @@ footer {
         width: 100%;
     }
 }
-
