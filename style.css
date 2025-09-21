@@ -63,7 +63,14 @@ header {
 }
 
 .header_list li:hover {
-    background-color: #29282835
+    background-color: #282b7539;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
+}
+
+.active_page{
+    background-color: #282a75;
+    color: #fff;
 }
 
 .header_list li a {
@@ -73,6 +80,13 @@ header {
     text-decoration: none;
 }
 
+.active_page{
+    background-color: #282a75;
+}
+
+.active_page_link{
+    color: #fff !important;
+}
 
 .container {
   display: inline-block;
@@ -377,11 +391,22 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer_contact a {
+
+.footer_link{
     color: #000;
     text-decoration: none;
     font-size: 14px;
     transition: all .3s ease;
+}
+
+.footer_link img{
+    height: 18px;
+    width: auto;
+    margin-right: 10px;
+    transition: all .3s ease;
+    /* padding: 5px;
+    border: 2px solid #282a75;
+    border-radius: 50%; */
 }
 
 
@@ -451,6 +476,10 @@ footer {
     .contact_info_section{
         width: 100%;
     }
+
+    .services_section{
+    padding: 20px;
+}
 
     .services_section h1{
         font-size: 25px;
