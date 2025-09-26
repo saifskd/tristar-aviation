@@ -68,7 +68,7 @@ header {
 
 }
 
-.active_page{
+.active_page {
     background-color: #282a75;
     color: #fff;
 }
@@ -80,45 +80,54 @@ header {
     text-decoration: none;
 }
 
-.active_page{
+.active_page {
     background-color: #282a75;
 }
 
-.active_page_link{
+.active_page_link {
     color: #fff !important;
 }
 
 .container {
-  display: inline-block;
-  cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #282a75;
-  margin: 6px 0;
-  transition: 0.4s;
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #282a75;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+    opacity: 0;
+}
 
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -11px) rotate(45deg);
 }
 
-.hero_image{
+.hero_image {
     width: 100%;
     height: auto;
 }
 
+.guarantee_sec {
+    display: flex;
+    gap: 100px;
+}
 
-.content_section{
-    padding: 60px 40px;
+
+.content_section {
+    padding: 60px 80px;
     line-height: 1.6;
     color: #222;
     font-size: 16px;
@@ -140,30 +149,30 @@ header {
     list-style: disc;
 }
 
-.services_card_section{
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: flex-start;
+.services_card_section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.services_section h1{
+.services_section h1 {
     color: #282a75;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.services_section .pera{
+.services_section .pera {
     color: #222;
     font-size: 16px;
     margin-bottom: 40px;
     text-align: justify
 }
 
- .card {
+.card {
     border: 1px solid #68676761;
-    width: 450px;
+    width: 410px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -171,7 +180,7 @@ align-items: flex-start;
     background-color: #fff;
 }
 
-.card img{
+.card img {
     height: auto;
     width: 100%;
     margin-bottom: 15px;
@@ -182,11 +191,11 @@ align-items: flex-start;
     transform: translateY(-5px);
 }
 
-.services_section{
-    padding: 60px 40px;
+.services_section {
+    padding: 60px 100px;
 }
 
-.card_header{
+.card_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,7 +203,7 @@ align-items: flex-start;
     cursor: pointer;
 }
 
-.card_content_text{
+.card_content_text {
     text-align: justify;
     margin-top: 10px;
     color: #222;
@@ -207,7 +216,7 @@ align-items: flex-start;
     display: block;
 } */
 
-.card_content{
+.card_content {
     border-bottom: 1px solid #eee;
     cursor: pointer;
 }
@@ -247,7 +256,7 @@ align-items: flex-start;
 }
 
 
-.card_header h4{
+.card_header h4 {
     color: #282a75;
     font-size: 20px;
 }
@@ -272,33 +281,42 @@ align-items: flex-start;
 }
 
 
-.contact_info{
+.contact_info {
     margin: 20px 0;
 }
 
-.contact_info img{
+.contact_info img {
     height: 20px;
     width: auto;
     margin-right: 10px;
 }
 
-
-.contact_form_section{
+.contact_form_name {
     display: flex;
-    justify-content: center;
-    border: 2px solid #282a75;
-    border-radius: 10px;
-    margin-top: 40px;
+    gap: 20px;
 }
 
-.contact_info_section{
+.contact_form_name input {
+    width: 100%;
+}
+
+.contact_form_section {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 40px;
+
+}
+
+.contact_info_section {
     width: 30%;
-    padding: 20px;
+    padding: 60px;
     color: #fff;
     background-color: #282a75;
 }
 
-.contact_form{
+.contact_form {
     padding: 20px;
     flex: 1;
     display: flex;
@@ -306,15 +324,16 @@ align-items: flex-start;
     gap: 15px;
 }
 
-.contact_form input, .contact_form textarea{
-    padding: 10px;
+.contact_form input,
+.contact_form textarea {
+    padding: 20px 12px;
     border: 1px solid #68676761;
     border-radius: 5px;
     font-size: 14px;
     resize: none;
 }
 
-.contact_form button{
+.contact_form button {
     padding: 10px;
     border: none;
     border: 2px solid #282a75;
@@ -326,16 +345,23 @@ align-items: flex-start;
     border-radius: 4px;
 }
 
-.contact_form button:hover{
+.contact_form button:hover {
     background-color: #282a75;
     color: #fff;
 }
 
-.map_section{
-    margin-top: 40px;
+.map_section {
+    /* margin-top: 40px; */
     border-radius: 10px;
 }
 
+.aircreft_font h2 {
+    font-size: 30px;
+}
+
+.aircreft_font p {
+    font-size: 20px;
+}
 
 
 
@@ -353,14 +379,14 @@ footer {
 }
 
 .footer_about p {
-    width: 45%;
+    /* width: 50%; */
     color: #000;
     margin-top: 10px;
     line-height: 1.6;
     font-size: 14px;
 }
 
-.footer_social{
+.footer_social {
     margin: 20px 0;
     display: flex;
     align-items: center;
@@ -383,24 +409,25 @@ footer {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer_contact h3 {
     color: #282a75;
-    font-size: 24px;
+    text-decoration: underline;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 
-.footer_link{
+.footer_link {
     color: #000;
     text-decoration: none;
     font-size: 14px;
     transition: all .3s ease;
 }
 
-.footer_link img{
+.footer_link img {
     height: 18px;
     width: auto;
     margin-right: 10px;
@@ -413,55 +440,68 @@ footer {
 
 /* ----------logo slider code------------- */
 
-    .qnic-slider {
-      overflow: hidden;
-      white-space: nowrap;
-      border-radius: 10px;
-      background: #fff;
-      padding: 20px 0;
-      margin: 0 0 50px 0;
-    }
+.qnic-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px 0;
+    margin: 0 0 50px 0;
+}
 
-    .qnic-track {
-      display: inline-flex;
-      animation: qnic-scroll 20s linear infinite;
-    }
-    .qnic-track-two{
-      display: inline-flex;
-      animation: qnic-scroll-two 20s linear infinite;
-    }
+.qnic-track {
+    display: inline-flex;
+    animation: qnic-scroll 20s linear infinite;
+}
 
-    .qnic-slide {
-      width: 150px;
-      height: 80px;
-      margin: 0 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.qnic-track-two {
+    display: inline-flex;
+    animation: qnic-scroll-two 20s linear infinite;
+}
 
-    .qnic-slide img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-      /* filter: grayscale(100%); */
-      transition: filter 0.3s;
-    }
+.qnic-slide {
+    width: 150px;
+    height: 80px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qnic-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* filter: grayscale(100%); */
+    transition: filter 0.3s;
+}
+
 /* 
     .qnic-slide img:hover {
       filter: grayscale(0%);
       transform: translate(0, -5px);
     } */
 
-    @keyframes qnic-scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+@keyframes qnic-scroll {
+    0% {
+        transform: translateX(0);
     }
 
-    @keyframes qnic-scroll-two {
-      0% { transform: translateX(-50%); }
-      100% { transform: translateX(0); }
+    100% {
+        transform: translateX(-50%);
     }
+}
+
+@keyframes qnic-scroll-two {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 /* ----------logo slider code end------------- */
 
 
@@ -470,32 +510,36 @@ footer {
 
 @media (max-width: 768px) {
 
-    .contact_form_section{
+    .guarantee_sec {
         flex-direction: column;
     }
 
-    .contact_info_section{
+    .contact_form_section {
+        flex-direction: column;
+    }
+
+    .contact_info_section {
         width: 100%;
     }
 
-    .services_section{
-    padding: 20px;
-}
+    .services_section {
+        padding: 20px;
+    }
 
-    .services_section h1{
+    .services_section h1 {
         font-size: 25px;
     }
 
-    .content_section h2{
+    .content_section h2 {
         font-size: 22px;
     }
 
-    .hero_image{
+    .hero_image {
         margin-top: 80px;
     }
 
 
-    .content_section{
+    .content_section {
         padding: 20px;
     }
 
@@ -521,4 +565,3 @@ footer {
         width: 100%;
     }
 }
-
