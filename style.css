@@ -127,15 +127,16 @@ header {
 
 
 .content_section {
-    padding: 60px 80px;
+    padding: 60px 200px;
     line-height: 1.6;
     color: #222;
     font-size: 16px;
 }
 
 .content_section h2 {
-    color: #282a75;
-    font-size: 32px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
     margin: 20px 0 10px 0;
 }
 
@@ -158,26 +159,27 @@ header {
 }
 
 .services_section h1 {
-    color: #282a75;
-    font-size: 36px;
+    color: #000;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .services_section .pera {
     color: #222;
     font-size: 16px;
+    line-height: 30px;
     margin-bottom: 40px;
     text-align: justify
 }
 
 .card {
     border: 1px solid #68676761;
-    width: 410px;
+    width: 370px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all .3s ease;
-    background-color: #fff;
+    background-color: #282a75;
 }
 
 .card img {
@@ -192,7 +194,7 @@ header {
 }
 
 .services_section {
-    padding: 60px 100px;
+    padding: 60px 150px;
 }
 
 .card_header {
@@ -230,7 +232,7 @@ header {
 .card_icon {
     font-size: 24px;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     transition: all .3s ease;
 }
@@ -239,7 +241,7 @@ header {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    color: #555;
+    color: #dfdfdf;
     font-size: 14px;
     line-height: 1.5;
     padding-right: 25px;
@@ -257,7 +259,7 @@ header {
 
 
 .card_header h4 {
-    color: #282a75;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -285,8 +287,8 @@ header {
     margin: 20px 0;
 }
 
-.contact_info img {
-    height: 20px;
+.contact_info svg {
+    height: 30px;
     width: auto;
     margin-right: 10px;
 }
@@ -361,6 +363,11 @@ header {
 
 .aircreft_font p {
     font-size: 20px;
+    color: gray;
+}
+
+.aircreft_font span{
+    color: #282a75;
 }
 
 
@@ -373,9 +380,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 100px;
     margin-top: 50px;
-    border-top: 1px solid #68676761;
+    border-top: 2px solid #282a75;
 }
 
 .footer_about p {
@@ -398,10 +405,13 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer_social a img {
-    height: 30px;
-    width: auto;
-    /* filter: grayscale(1); */
+.footer_social a svg {
+    height: 50px;
+    padding: 15px;
+    background-color: #282a75;
+    color: #fff;
+    width: 50px;
+    border-radius: 50%;
     transition: all .3s ease;
 }
 
@@ -427,14 +437,12 @@ footer {
     transition: all .3s ease;
 }
 
-.footer_link img {
+.footer_link svg {
     height: 18px;
     width: auto;
+    color: #282a75;
     margin-right: 10px;
     transition: all .3s ease;
-    /* padding: 5px;
-    border: 2px solid #282a75;
-    border-radius: 50%; */
 }
 
 
@@ -509,6 +517,11 @@ footer {
 
 
 @media (max-width: 768px) {
+
+
+    footer{
+        padding: 20px;
+    }
 
     .guarantee_sec {
         flex-direction: column;
