@@ -10,6 +10,17 @@ html{
     overflow: hidden;
 } */
 
+.whatsapp_icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp_icon img{
+    height: 60px;
+    width: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
