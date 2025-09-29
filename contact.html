@@ -88,14 +88,14 @@
                 </div>
             </div>
 
-            <form class="contact_form" action="#">
+            <form onsubmit="submitDeta()" class="contact_form" action="#">
                 <div class="contact_form_name">
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
+                    <input id="first-name" type="text" placeholder="First Name" required>
+                    <input id="last-name" type="text" placeholder="Last Name" required>
                 </div>
-                <input type="email" placeholder="Email Address" required>
-                <input type="tel" placeholder="Phone Number" required>
-                <textarea name="message" rows="6" placeholder="Message" required></textarea>
+                <input id="email" type="email" placeholder="Email Address" required>
+                <input id="number" type="tel" placeholder="Phone Number" required>
+                <textarea id="message" name="message" rows="6" placeholder="Message" required></textarea>
                 <div class="contact_form_btn">
                 <button type="submit">Submit</button>
                 </div>
