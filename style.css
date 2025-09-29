@@ -335,20 +335,23 @@ header {
     resize: none;
 }
 
-.contact_form button {
+
+.contact_form_btn button {
+    width: 150px;
     padding: 10px;
-    border: none;
     border: 2px solid #282a75;
-    color: #282a75;
-    background-color: transparent;
+    color: #fff;
+    background-color: #282a75;
     font-size: 16px;
     cursor: pointer;
     transition: all .3s ease;
-    border-radius: 4px;
+    border-radius: 50px;
+    float: right;
+    box-shadow: 10px 10px 0px rgba(102, 106, 213, 0.595)
 }
 
-.contact_form button:hover {
-    background-color: #282a75;
+.contact_form_btn button:hover {
+    background-color: #000;
     color: #fff;
 }
 
@@ -386,7 +389,7 @@ footer {
 }
 
 .footer_about p {
-    /* width: 50%; */
+    width: 80%;
     color: #000;
     margin-top: 10px;
     line-height: 1.6;
