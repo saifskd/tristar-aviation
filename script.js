@@ -24,18 +24,6 @@ function myFunction(x) {
 }
 
 
-
-// to show and hide the card content
-// let cardHeaders = document.querySelectorAll(".card_content");
-// let cardContents = document.querySelectorAll(".card_content_text");
-// cardHeaders.forEach(header => {
-//     header.addEventListener("click", () => {
-//         cardContents.forEach(content => {
-//             content.classList.remove("show_content");
-//         });
-//         header.nextElementSibling.classList.toggle("show_content");
-//     });
-// });
     const items = document.querySelectorAll(".card_content");
 
     items.forEach(item => {
@@ -43,3 +31,24 @@ function myFunction(x) {
         item.classList.toggle("active");
       });
     });
+
+
+    // ----------------form submition-------------
+
+    function submitDeta(){
+    let formInfo = {
+        firstName: document.querySelector("#form-first-name").value,
+        lastName: document.querySelector("#form-last-name").value,
+        email: document.querySelector("#form-email").value,
+        number: document.querySelector("#form-number").value,
+        message: document.querySelector("#form-message").value,
+    }
+
+    for (let i = 0; i < 1; i++) {
+        if (i < formInfo.firstName.length) {
+            emailjs.send("service_h55snre", "template_ho17jeq", formInfo).then(
+                alert("✅ Thank you! Your message has been sent successfully. I’ll get back to you soon.")
+            );
+        }
+    }
+}
