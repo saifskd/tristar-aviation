@@ -133,7 +133,7 @@ header {
 
 .guarantee_sec {
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
 }
 
 
