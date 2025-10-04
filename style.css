@@ -133,7 +133,7 @@ header {
 
 .guarantee_sec {
     display: flex;
-    justify-content: space-between;
+    gap: 300px;
 }
 
 
@@ -548,6 +548,7 @@ footer {
 
     .guarantee_sec {
         flex-direction: column;
+        gap: 50px;
     }
 
     .contact_form_section {
