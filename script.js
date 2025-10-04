@@ -46,9 +46,10 @@ function myFunction(x) {
 
     for (let i = 0; i < 1; i++) {
         if (i < formInfo.firstName.length) {
-            emailjs.send("service_h55snre", "template_ho17jeq", formInfo).then(
+            emailjs.send("service_nvd7t5s", "template_xckqqre", formInfo).then(
                 alert("✅ Thank you! Your message has been sent successfully. I’ll get back to you soon.")
             );
         }
     }
 }
+
